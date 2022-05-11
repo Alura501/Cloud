@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ ONEHOST }}"
+- hosts: myhost
   become: yes
   roles:
     - roles/ansible-anchor
